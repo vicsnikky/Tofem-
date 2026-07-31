@@ -30,7 +30,7 @@ export const CAMPUSES: Campus[] = [
     type: "Primary",
     address: "32, Bodunrin Street, Agbado crossing, Ogun state",
     landmark: "Agbado Crossing Junction",
-    image: "/images/primary_campus_photo.jpg",
+    image: "https://i.ibb.co/m5N6T7h8/Whats-App-Image-2026-07-24-at-2-22-42-PM.jpg",
     phone: "08034860693",
     email: "olabiranjo2005@gmail.com",
     grades: "Creche, Nursery & Basic 1 to 6",

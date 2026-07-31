@@ -8,7 +8,7 @@ export const GallerySection: React.FC = () => {
     {
       title: "Tofem Primary School Building",
       category: "Campuses",
-      image: "/images/primary_campus_photo.jpg",
+      image: "https://i.ibb.co/m5N6T7h8/Whats-App-Image-2026-07-24-at-2-22-42-PM.jpg",
       campus: "32, Bodunrin Street, Agbado crossing"
     },
     {
