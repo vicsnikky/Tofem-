@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-xl bg-blue-900 p-0.5 shadow-md border border-blue-800">
                 <img 
-                  src="/images/tofem_badge_logo_1785475305858.jpg" 
+                  src="https://i.ibb.co/BHvT891p/Whats-App-Image-2026-07-31-at-7-30-10-AM.jpg" 
                   alt="Tofem Logo" 
                   className="w-full h-full object-cover rounded-[10px]"
                   referrerPolicy="no-referrer"

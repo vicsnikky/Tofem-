@@ -92,7 +92,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <div className="w-12 h-12 rounded-xl bg-blue-900 p-0.5 shadow-md group-hover:scale-105 transition-transform border border-blue-800">
               <img 
-                src="/images/tofem_badge_logo_1785475305858.jpg" 
+                src="https://i.ibb.co/BHvT891p/Whats-App-Image-2026-07-31-at-7-30-10-AM.jpg" 
                 alt="Tofem Badge Logo" 
                 className="w-full h-full object-cover rounded-[10px]"
                 referrerPolicy="no-referrer"
