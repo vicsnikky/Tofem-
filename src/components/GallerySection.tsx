@@ -18,9 +18,9 @@ export const GallerySection: React.FC = () => {
       campus: "22, Olaoluwa Street, Agbado crossing"
     },
     {
-      title: "Interactive Primary Classroom",
+      title: "Tofem Classroom",
       category: "Classrooms",
-      image: "/images/tofem_hero_banner_1785475269203.jpg",
+      image: "https://i.ibb.co/fGYpjw7t/Whats-App-Image-2026-07-31-at-7-25-58-AM.jpg",
       campus: "Tofem Primary Campus"
     },
     {

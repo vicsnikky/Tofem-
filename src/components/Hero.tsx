@@ -18,7 +18,7 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Background Image with Blue Overlay */}
       <div className="absolute inset-0 z-0 opacity-20">
         <img 
-          src="/images/tofem_hero_banner_1785475269203.jpg" 
+          src="https://i.ibb.co/fGYpjw7t/Whats-App-Image-2026-07-31-at-7-25-58-AM.jpg" 
           alt="Tofem Pupils in Classroom" 
           className="w-full h-full object-cover object-center scale-105 filter blur-[1px]"
           referrerPolicy="no-referrer"
@@ -127,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="lg:col-span-5 space-y-4">
             <div className="relative rounded-3xl overflow-hidden bg-blue-900 border border-blue-800 p-2 shadow-2xl">
               <img 
-                src="/images/tofem_hero_banner_1785475269203.jpg" 
+                src="https://i.ibb.co/fGYpjw7t/Whats-App-Image-2026-07-31-at-7-25-58-AM.jpg" 
                 alt="Tofem Classroom Learning" 
                 className="w-full h-64 sm:h-80 object-cover rounded-2xl"
                 referrerPolicy="no-referrer"
