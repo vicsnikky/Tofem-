@@ -30,10 +30,22 @@ export const GallerySection: React.FC = () => {
       campus: "Tofem College Science Lab"
     },
     {
-      title: "Annual Inter-House Sports & Relay",
-      category: "Sports",
-      image: "https://picsum.photos/seed/tofem-sports/600/400",
-      campus: "Tofem Sports Ground"
+      title: "Educational School Excursion",
+      category: "Excursions",
+      image: "https://i.ibb.co/kdWZCSn/Whats-App-Image-2026-07-24-at-2-44-43-PM.jpg",
+      campus: "Tofem School Trip"
+    },
+    {
+      title: "Student Field Trip & Learning Excursion",
+      category: "Excursions",
+      image: "https://i.ibb.co/qMWqXWdb/Whats-App-Image-2026-07-24-at-2-44-42-PM.jpg",
+      campus: "Educational Outing"
+    },
+    {
+      title: "Outdoor Cultural & Educational Excursion",
+      category: "Excursions",
+      image: "https://i.ibb.co/DHsvW1Pf/Whats-App-Image-2026-07-24-at-2-44-43-PM-1.jpg",
+      campus: "Tofem Excursion Group"
     },
     {
       title: "Cultural Day & Drama Presentation",
@@ -43,7 +55,7 @@ export const GallerySection: React.FC = () => {
     }
   ];
 
-  const categories = ['All', 'Campuses', 'Classrooms', 'Academics', 'Sports', 'Events'];
+  const categories = ['All', 'Campuses', 'Classrooms', 'Academics', 'Excursions', 'Events'];
 
   const filteredItems = filter === 'All'
     ? galleryItems
@@ -63,7 +75,7 @@ export const GallerySection: React.FC = () => {
             Photo Gallery
           </h2>
           <p className="text-blue-100 text-base leading-relaxed">
-            Take a glimpse into daily student life, primary and college facilities, academic activities, and sports across our dual campuses.
+            Take a glimpse into daily student life, primary and college facilities, academic activities, and educational excursions across our dual campuses.
           </p>
         </div>
 
