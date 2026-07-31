@@ -8,19 +8,19 @@ export const GallerySection: React.FC = () => {
     {
       title: "Tofem Primary School Building",
       category: "Campuses",
-      image: "/src/assets/images/primary_campus_photo.jpg",
+      image: "/images/primary_campus_photo.jpg",
       campus: "32, Bodunrin Street, Agbado crossing"
     },
     {
       title: "Tofem College Secondary Building",
       category: "Campuses",
-      image: "/src/assets/images/secondary_college_photo.jpg",
+      image: "/images/secondary_college_photo.jpg",
       campus: "22, Olaoluwa Street, Agbado crossing"
     },
     {
       title: "Interactive Primary Classroom",
       category: "Classrooms",
-      image: "/src/assets/images/tofem_hero_banner_1785475269203.jpg",
+      image: "/images/tofem_hero_banner_1785475269203.jpg",
       campus: "Tofem Primary Campus"
     },
     {
