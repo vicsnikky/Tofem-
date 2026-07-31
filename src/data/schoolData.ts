@@ -49,7 +49,7 @@ export const CAMPUSES: Campus[] = [
     type: "Secondary",
     address: "22, Olaoluwa Street, Agbado crossing, Ogun state",
     landmark: "Stone's throw from Primary Campus, Agbado Crossing",
-    image: "/images/secondary_college_photo.jpg",
+    image: "https://i.ibb.co/Q3yH3N0T/Whats-App-Image-2026-07-31-at-6-42-54-AM.jpg",
     phone: "08034860693",
     email: "olabiranjo2005@gmail.com",
     grades: "JSS 1 - 3 & SSS 1 - 3 (Sciences, Arts & Commercial)",

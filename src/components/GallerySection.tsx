@@ -14,7 +14,7 @@ export const GallerySection: React.FC = () => {
     {
       title: "Tofem College Secondary Building",
       category: "Campuses",
-      image: "/images/secondary_college_photo.jpg",
+      image: "https://i.ibb.co/Q3yH3N0T/Whats-App-Image-2026-07-31-at-6-42-54-AM.jpg",
       campus: "22, Olaoluwa Street, Agbado crossing"
     },
     {
