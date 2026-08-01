@@ -72,6 +72,11 @@ export const Footer: React.FC<FooterProps> = ({
                 </button>
               </li>
               <li>
+                <button onClick={() => handleNav('director')} className="hover:text-red-400 transition-colors">
+                  MD's Message
+                </button>
+              </li>
+              <li>
                 <button onClick={() => handleNav('campuses')} className="hover:text-red-400 transition-colors">
                   Dual Campuses
                 </button>
