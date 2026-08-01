@@ -159,7 +159,7 @@ export const FoundersSection: React.FC = () => {
               <div className="pt-5 mt-6 border-t border-slate-700/80 flex items-center justify-between">
                 <div>
                   <p className="text-xs text-slate-400">Warm regards,</p>
-                  <p className="text-sm font-bold text-white font-serif">Olabiran Joshua</p>
+                  <p className="text-sm font-bold text-white font-serif">Mr. Olabiran Joshua</p>
                   <p className="text-[11px] text-red-400 font-semibold">Co-Founder & Managing Director</p>
                 </div>
                 <div className="px-3 py-1 rounded-lg bg-red-600/10 border border-red-500/30 text-red-300 text-xs font-bold">
