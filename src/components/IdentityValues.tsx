@@ -18,7 +18,7 @@ export const IdentityValues: React.FC = () => {
     },
     {
       title: "Financial Accessibility",
-      desc: "Pioneered daily payment lesson plans to ensure quality education remains accessible to all families regardless of income.",
+      desc: "Offers flexible fee structures and standard termly plans to ensure quality education remains accessible to all families regardless of income.",
       icon: Heart,
       color: "bg-amber-500/10 text-amber-600 border-amber-200"
     },

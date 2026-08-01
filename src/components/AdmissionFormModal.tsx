@@ -21,7 +21,7 @@ export const AdmissionFormModal: React.FC<AdmissionFormModalProps> = ({
     email: '',
     gradeApplying: defaultPlan || 'Basic 1',
     campusPreference: 'Primary' as 'Primary' | 'Secondary',
-    paymentPlan: 'Standard Termly' as 'Standard Termly' | 'Daily Payment Plan' | 'Flexible Installment',
+    paymentPlan: 'Standard Termly' as 'Standard Termly' | 'Flexible Fee Payment' | 'Flexible Installment',
     message: ''
   });
 
@@ -266,7 +266,7 @@ export const AdmissionFormModal: React.FC<AdmissionFormModalProps> = ({
                     className="w-full px-3 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900"
                   >
                     <option value="Standard Termly">Standard Termly Fees</option>
-                    <option value="Daily Payment Plan">Daily Payment Plan</option>
+                    <option value="Flexible Fee Payment">Flexible Fee Payment Plan</option>
                     <option value="Flexible Installment">Flexible Installment Plan</option>
                   </select>
                 </div>

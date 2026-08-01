@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({
     { id: 'history', label: 'Our History' },
     { id: 'leadership', label: "Co-Founders' Message" },
     { id: 'campuses', label: 'Campuses' },
-    { id: 'academics', label: 'Academics & Daily Plan' },
+    { id: 'academics', label: 'Academics & Fees' },
     { id: 'values', label: 'Mission & Vision' },
     { id: 'events', label: 'News & Events' },
     { id: 'contact', label: 'Contact' },

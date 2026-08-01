@@ -8,7 +8,7 @@ export const SCHOOL_INFO = {
   mission: "Building Future Leaders — Committed to raising learners who will become responsible, innovative, and impactful leaders.",
   vision: "To enhance sustainable knowledge and good character in the lives of our learners. We believe education is about building both the mind and the character.",
   foundedDate: "June 3rd, 2013",
-  foundingStory: "Tofem Private School began on June 3rd, 2013, in a rented space with a heart to serve. It started as a Creche and Care Centre for less privileged children who were old enough to begin formal education. To make learning accessible, we introduced a daily payment lesson plan so finances would not be a barrier to education. The school began with just one female teacher and the Proprietress, operating with dedication, sacrifice, and the belief that every child deserves quality education.",
+  foundingStory: "Tofem Private School began on June 3rd, 2013, in a rented space with a heart to serve. It started as a Creche and Care Centre for less privileged children who were old enough to begin formal education. To make learning accessible, we introduced flexible fee payment plans so finances would not be a barrier to education. The school began with just one female teacher and the Proprietress, operating with dedication, sacrifice, and the belief that every child deserves quality education.",
   email: "olabiranjo2005@gmail.com",
   phone: "08034860693",
   formattedPhone: "+234 803 486 0693",
@@ -39,7 +39,7 @@ export const CAMPUSES: Campus[] = [
       "Spacious, Ventilated Classrooms",
       "Child Safety & Secure Perimeter",
       "Interactive Learning Aids & Phonics",
-      "Daily Payment Lesson Plan Option",
+      "Flexible & Standard Termly Fee Options",
       "Age-Appropriate Discipline & Character Building"
     ]
   },
@@ -70,8 +70,8 @@ export const TIMELINE: TimelineEvent[] = [
     date: "June 3rd, 2013",
     title: "Founded on a Vision to Serve",
     subtitle: "Creche & Care Centre in Rented Space",
-    description: "Started in a rented space as a Creche and Care Centre for less privileged children. To ensure financial constraints never barred any child from learning, we pioneered a flexible daily payment lesson plan. Operated with dedication by just one female teacher and the Proprietress.",
-    highlight: "1 Teacher + Proprietress • Daily Payment Plan",
+    description: "Started in a rented space as a Creche and Care Centre for less privileged children. To ensure financial constraints never barred any child from learning, we pioneered flexible fee payment options. Operated with dedication by just one female teacher and the Proprietress.",
+    highlight: "1 Teacher + Proprietress • Flexible Fee Access",
     iconName: "HeartHandshake"
   },
   {
@@ -111,7 +111,7 @@ export const ACADEMIC_PROGRAMS: AcademicProgram[] = [
     ageRange: "3 Months - 2 Years",
     description: "Nurturing early childhood care providing safety, sensory stimulation, social bonding, and foundational motor development in a warm environment.",
     subjects: ["Sensory Development", "Language Play", "Motor Skills", "Social Interaction", "Early Phonics"],
-    keyFeatures: ["Daily Payment Option Available", "Hygiene & Safety Focus", "Dedicated Caregiver Supervision"],
+    keyFeatures: ["Flexible Fee Payment Options", "Hygiene & Safety Focus", "Dedicated Caregiver Supervision"],
     icon: "Baby"
   },
   {
@@ -158,11 +158,11 @@ export const ANNOUNCEMENTS: Announcement[] = [
   },
   {
     id: "ann-2",
-    title: "Daily Payment Lesson Plan Information Session",
+    title: "Flexible Payment & Standard Fee Information",
     category: "Notice",
     date: "August 2026",
-    summary: "Learn how our founding daily lesson plan empowers parents with flexible payment options.",
-    content: "In line with our core founding vision since 2013, Tofem Private School continues to offer flexible payment arrangements including our popular daily lesson plan to ensure financial hardship never interrupts a child's right to quality education.",
+    summary: "Learn how our flexible payment options and standard termly fee structures empower parents.",
+    content: "In line with our core vision, Tofem Private School & Tofem College offers flexible fee payment plans and standard termly arrangements to ensure financial hardship never interrupts a child's right to quality education.",
     badgeColor: "bg-blue-100 text-blue-800"
   },
   {
@@ -210,7 +210,7 @@ export const SAMPLE_STUDENT_RECORDS: StudentRecord[] = [
     academicYear: "2025/2026",
     overallGrade: "A (91.2%)",
     attendance: "100%",
-    feeStatus: "Daily Plan Active",
+    feeStatus: "Flexible Plan Active",
     subjects: [
       { name: "Mathematics", score: 95, grade: "A+" },
       { name: "English Language", score: 88, grade: "A" },

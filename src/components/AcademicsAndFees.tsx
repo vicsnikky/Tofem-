@@ -26,14 +26,14 @@ export const AcademicsAndFees: React.FC<AcademicsAndFeesProps> = ({ onOpenAdmiss
             <span>Academic Excellence & Accessibility</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
-            Comprehensive Curriculum & Daily Payment Plan
+            Comprehensive Curriculum & Flexible Fees
           </h2>
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed font-normal">
-            From Creche care to WAEC/NECO senior secondary graduation, we provide age-appropriate academic focus across our two Ogun State approved campuses.
+            From Creche care to WAEC/NECO senior secondary graduation, we provide age-appropriate academic focus across our two Ogun State approved campuses with flexible fee payment structures and standard termly options.
           </p>
         </div>
 
-        {/* Feature Spotlight: Daily Payment Lesson Plan */}
+        {/* Feature Spotlight: Flexible Fee Payment Structure */}
         <div className="bg-gradient-to-br from-blue-900 via-indigo-950 to-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-2xl border border-blue-800/80 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -42,38 +42,38 @@ export const AcademicsAndFees: React.FC<AcademicsAndFeesProps> = ({ onOpenAdmiss
             <div className="lg:col-span-7 space-y-5">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-amber-400 text-slate-950">
                 <HeartHandshake className="w-4 h-4" />
-                <span>Pioneered in 2013</span>
+                <span>Accessible Education</span>
               </div>
               <h3 className="text-2xl sm:text-4xl font-extrabold text-white leading-tight">
-                The Daily Payment Lesson Plan
+                Flexible & Standard Termly Fee Options
               </h3>
               <p className="text-slate-200 text-sm sm:text-base leading-relaxed">
-                When Tofem Private School began on June 3rd, 2013, we established a daily payment lesson plan so that finances would never stand as a barrier to education. Today, we continue this legacy of inclusion.
+                When Tofem Private School began on June 3rd, 2013, we established accessible fee options so that finances would never stand as a barrier to education. Today, we continue this legacy of inclusion with standard termly fees and flexible payment plans.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-200 pt-2">
                 <div className="flex items-start gap-2 bg-white/10 p-3 rounded-xl border border-white/10">
                   <Wallet className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                   <div>
-                    <strong className="block text-amber-300 font-bold">Flexible Daily Rates</strong>
-                    <span>Pay daily, weekly, or termly based on family budget.</span>
+                    <strong className="block text-amber-300 font-bold">Flexible Fee Structure</strong>
+                    <span>Pay standard termly fees or arrange flexible installments with the bursary.</span>
                   </div>
                 </div>
                 <div className="flex items-start gap-2 bg-white/10 p-3 rounded-xl border border-white/10">
                   <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                   <div>
                     <strong className="block text-emerald-300 font-bold">No Disruption to Learning</strong>
-                    <span>Children attend classes continuously without fees interruption.</span>
+                    <span>Children attend classes continuously without learning interruption.</span>
                   </div>
                 </div>
               </div>
 
               <div className="pt-4 flex flex-wrap items-center gap-3">
                 <button
-                  onClick={() => onOpenAdmissionModal('Daily Payment Plan')}
+                  onClick={() => onOpenAdmissionModal('Flexible Fee Payment')}
                   className="px-6 py-3 bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs rounded-xl shadow-lg transition-all flex items-center gap-2"
                 >
-                  <span>Enquire for Daily Plan</span>
+                  <span>Enquire for Fee Plans</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <a
@@ -90,20 +90,16 @@ export const AcademicsAndFees: React.FC<AcademicsAndFeesProps> = ({ onOpenAdmiss
             <div className="lg:col-span-5 bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-slate-200 space-y-4">
               <h4 className="text-lg font-bold text-white flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-amber-400" />
-                Payment Options Available
+                Payment Methods Available
               </h4>
               <ul className="space-y-3 text-xs">
                 <li className="p-3 bg-slate-900/60 rounded-xl border border-slate-700/60">
-                  <strong className="text-amber-300 font-bold block text-sm">1. Daily Payment Plan</strong>
-                  <span>Pay a manageable daily fee at the start of each school day.</span>
+                  <strong className="text-amber-300 font-bold block text-sm">1. Standard Termly Fee</strong>
+                  <span>Traditional full termly tuition payment per academic term.</span>
                 </li>
                 <li className="p-3 bg-slate-900/60 rounded-xl border border-slate-700/60">
-                  <strong className="text-blue-300 font-bold block text-sm">2. Standard Termly Fees</strong>
-                  <span>Traditional termly tuition payment per session.</span>
-                </li>
-                <li className="p-3 bg-slate-900/60 rounded-xl border border-slate-700/60">
-                  <strong className="text-emerald-300 font-bold block text-sm">3. Flexible Installments</strong>
-                  <span>Customized weekly or monthly installment agreements with bursary.</span>
+                  <strong className="text-blue-300 font-bold block text-sm">2. Flexible Installment Plan</strong>
+                  <span>Customized installment arrangements with the school bursary based on family budget.</span>
                 </li>
               </ul>
             </div>
@@ -179,7 +175,7 @@ export const AcademicsAndFees: React.FC<AcademicsAndFeesProps> = ({ onOpenAdmiss
               </div>
 
               <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                <span className="text-xs text-slate-500 font-medium">Daily & Termly Available</span>
+                <span className="text-xs text-slate-500 font-medium">Flexible & Termly Fees</span>
                 <button
                   onClick={() => onOpenAdmissionModal(prog.level)}
                   className="px-4 py-2 bg-blue-900 hover:bg-blue-800 text-white font-bold text-xs rounded-xl shadow transition-colors"

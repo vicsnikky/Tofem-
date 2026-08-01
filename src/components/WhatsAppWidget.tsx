@@ -11,8 +11,8 @@ export const WhatsAppWidget: React.FC = () => {
       text: "Hello Tofem School, I would like to enquire about admission requirements and entrance exam dates for my child."
     },
     {
-      label: "Daily Payment Lesson Plan Details",
-      text: "Hello Tofem School, I would like to know how your founding Daily Payment Lesson Plan works for primary and creche pupils."
+      label: "Flexible & Termly Fee Plan Details",
+      text: "Hello Tofem School, I would like to know how your Flexible Fee Payment and Standard Termly Fee options work for my child."
     },
     {
       label: "Campus Directions & Address",

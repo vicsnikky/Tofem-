@@ -206,7 +206,7 @@ export const ContactSection: React.FC = () => {
                         className="w-full px-3.5 py-2.5 text-sm bg-white border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900"
                       >
                         <option value="Admission Inquiry">Admission Inquiry</option>
-                        <option value="Daily Payment Plan Info">Daily Payment Plan Info</option>
+                        <option value="Flexible & Termly Fee Info">Flexible & Termly Fee Info</option>
                         <option value="Campus Visit Booking">Campus Visit Booking</option>
                         <option value="General Question">General Question</option>
                       </select>

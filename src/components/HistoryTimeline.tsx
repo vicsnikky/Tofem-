@@ -42,7 +42,7 @@ export const HistoryTimeline: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-1.5 bg-blue-900/80 px-3 py-1.5 rounded-lg border border-blue-700/60">
                   <HeartHandshake className="w-4 h-4 text-red-400" />
-                  <span>Daily Payment Lesson Plan</span>
+                  <span>Flexible Fee Payment Plan</span>
                 </div>
                 <div className="flex items-center gap-1.5 bg-blue-900/80 px-3 py-1.5 rounded-lg border border-blue-700/60">
                   <Award className="w-4 h-4 text-red-400" />
@@ -80,10 +80,10 @@ export const HistoryTimeline: React.FC = () => {
                   1. Founded on a Vision to Serve
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Began in a rented space as a Creche and Care Centre for less privileged children who were old enough to begin formal education. Introduced a daily payment lesson plan so finances would not be a barrier to education. Operated with just one female teacher and the Proprietress.
+                  Began in a rented space as a Creche and Care Centre for less privileged children who were old enough to begin formal education. Introduced flexible fee payment plans so finances would not be a barrier to education. Operated with just one female teacher and the Proprietress.
                 </p>
                 <div className="inline-flex items-center gap-1 text-xs font-bold text-blue-900 bg-blue-50 px-3 py-1 rounded-md border border-blue-200">
-                  Pioneered Daily Lesson Plan
+                  Pioneered Flexible Fee Access
                 </div>
               </div>
 

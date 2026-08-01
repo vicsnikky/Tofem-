@@ -68,10 +68,10 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <div className="space-y-1">
                   <h4 className="text-sm font-bold text-white flex items-center gap-2">
-                    Our Unique Heritage: Daily Payment Lesson Plan
+                    Our Core Values: Flexible & Standard Termly Fees
                   </h4>
                   <p className="text-xs sm:text-sm text-blue-100">
-                    Founded in 2013 with a heart to serve every child, Tofem introduced a flexible daily payment plan so financial constraints never stop any child from receiving quality basic education.
+                    Founded in 2013 with a heart to serve every child, Tofem offers flexible payment structures and standard termly fee options so financial constraints never stop any child from receiving quality basic education.
                   </p>
                 </div>
               </div>

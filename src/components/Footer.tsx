@@ -83,7 +83,7 @@ export const Footer: React.FC<FooterProps> = ({
               </li>
               <li>
                 <button onClick={() => handleNav('academics')} className="hover:text-red-400 transition-colors">
-                  Daily Payment Lesson Plan
+                  Flexible & Standard Termly Fees
                 </button>
               </li>
               <li>

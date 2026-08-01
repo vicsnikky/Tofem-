@@ -40,7 +40,7 @@ export interface AdmissionInquiry {
   email: string;
   gradeApplying: string;
   campusPreference: 'Primary' | 'Secondary';
-  paymentPlan: 'Standard Termly' | 'Daily Payment Plan' | 'Flexible Installment';
+  paymentPlan: 'Standard Termly' | 'Flexible Fee Payment' | 'Flexible Installment';
   message?: string;
   createdAt?: string;
   status?: 'Pending' | 'Contacted' | 'Enrolled';
@@ -68,7 +68,7 @@ export interface StudentRecord {
   academicYear: string;
   overallGrade: string;
   attendance: string;
-  feeStatus: 'Paid' | 'Partial' | 'Daily Plan Active';
+  feeStatus: 'Paid' | 'Partial' | 'Flexible Plan Active';
   subjects: { name: string; score: number; grade: string }[];
 }
 
