@@ -72,8 +72,8 @@ export const Footer: React.FC<FooterProps> = ({
                 </button>
               </li>
               <li>
-                <button onClick={() => handleNav('director')} className="hover:text-red-400 transition-colors">
-                  MD's Message
+                <button onClick={() => handleNav('leadership')} className="hover:text-red-400 transition-colors">
+                  Co-Founders' Messages
                 </button>
               </li>
               <li>

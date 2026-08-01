@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { HistoryTimeline } from './components/HistoryTimeline';
-import { ManagingDirectorSection } from './components/ManagingDirectorSection';
+import { FoundersSection } from './components/FoundersSection';
 import { Campuses } from './components/Campuses';
 import { IdentityValues } from './components/IdentityValues';
 import { AcademicsAndFees } from './components/AcademicsAndFees';
@@ -54,8 +54,8 @@ export default function App() {
       {/* History & Origin Story Timeline */}
       <HistoryTimeline />
 
-      {/* Managing Director Encouragement & Motivation Message */}
-      <ManagingDirectorSection />
+      {/* Co-Founders Messages (Managing Director & Proprietress side-by-side) */}
+      <FoundersSection />
 
       {/* Dual Campus Network Showcase */}
       <Campuses />
