@@ -244,7 +244,7 @@ export const ContactSection: React.FC = () => {
                       <input
                         type="text"
                         required
-                        placeholder="e.g. Mr. Timothy Olabiran"
+                        placeholder="e.g. Pastor / Parent Name"
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         className="w-full px-3.5 py-2.5 text-sm bg-white border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900"

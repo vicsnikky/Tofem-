@@ -330,7 +330,7 @@ export const SAMPLE_STUDENT_RECORDS: StudentRecord[] = [
     fullName: "Olabiran Joy Chidimma",
     class: "JSS 2",
     campus: "Tofem College (Secondary)",
-    parentName: "Mrs. Olabiran",
+    parentName: "Pastor Mrs. Olabiran",
     parentPhone: "08034860693",
     term: "3rd Term",
     academicYear: "2025/2026",

@@ -22,7 +22,7 @@ export const FoundersSection: React.FC = () => {
             Messages from Our Co-Founders
           </h2>
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-            Co-founded with visionary leadership and motherly devotion by <strong className="text-white">Mr. Olabiran Joshua</strong> and <strong className="text-white">Mrs. Olabiran Oluwatoyin</strong>, dedicated to guiding every student toward academic brilliance and moral excellence.
+            Co-founded with visionary leadership and motherly devotion by <strong className="text-white">Pastor Olabiran Joshua</strong> and <strong className="text-white">Pastor Mrs. Olabiran Oluwatoyin</strong>, dedicated to guiding every student toward academic brilliance and moral excellence.
           </p>
 
           {/* Quick View Switcher Tabs */}
@@ -83,14 +83,14 @@ export const FoundersSection: React.FC = () => {
                   <div className="relative shrink-0">
                     <img
                       src="https://i.ibb.co/27dL3ssR/Whats-App-Image-2026-08-01-at-3-02-55-PM.jpg"
-                      alt="Mr. Olabiran Joshua - Co-Founder & Managing Director"
+                      alt="Pastor Olabiran Joshua - Co-Founder & Managing Director"
                       className="w-28 h-32 sm:w-32 sm:h-36 object-cover object-top rounded-xl border-2 border-red-500/60 shadow-md group-hover:scale-105 transition-transform duration-300"
                       referrerPolicy="no-referrer"
                     />
                   </div>
                   <div className="text-center sm:text-left space-y-1">
                     <h3 className="text-xl sm:text-2xl font-bold text-white">
-                      Mr. Olabiran Joshua
+                      Pastor Olabiran Joshua
                     </h3>
                     <p className="text-red-400 text-xs sm:text-sm font-semibold uppercase tracking-wider">
                       Co-Founder & Managing Director
@@ -159,7 +159,7 @@ export const FoundersSection: React.FC = () => {
               <div className="pt-5 mt-6 border-t border-slate-700/80 flex items-center justify-between">
                 <div>
                   <p className="text-xs text-slate-400">Warm regards,</p>
-                  <p className="text-sm font-bold text-white font-serif">Mr. Olabiran Joshua</p>
+                  <p className="text-sm font-bold text-white font-serif">Pastor Olabiran Joshua</p>
                   <p className="text-[11px] text-red-400 font-semibold">Co-Founder & Managing Director</p>
                 </div>
                 <div className="px-3 py-1 rounded-lg bg-red-600/10 border border-red-500/30 text-red-300 text-xs font-bold">
@@ -188,14 +188,14 @@ export const FoundersSection: React.FC = () => {
                   <div className="relative shrink-0">
                     <img
                       src="https://i.ibb.co/cpccBsy/Whats-App-Image-2026-08-01-at-4-32-58-PM.jpg"
-                      alt="Mrs. Olabiran Oluwatoyin - Co-Founder & Proprietress"
+                      alt="Pastor Mrs. Olabiran Oluwatoyin - Co-Founder & Proprietress"
                       className="w-28 h-32 sm:w-32 sm:h-36 object-cover object-top rounded-xl border-2 border-rose-500/60 shadow-md group-hover:scale-105 transition-transform duration-300"
                       referrerPolicy="no-referrer"
                     />
                   </div>
                   <div className="text-center sm:text-left space-y-1">
                     <h3 className="text-xl sm:text-2xl font-bold text-white">
-                      Mrs. Olabiran Oluwatoyin
+                      Pastor Mrs. Olabiran Oluwatoyin
                     </h3>
                     <p className="text-rose-400 text-xs sm:text-sm font-semibold uppercase tracking-wider">
                       Co-Founder & Proprietress
@@ -264,7 +264,7 @@ export const FoundersSection: React.FC = () => {
               <div className="pt-5 mt-6 border-t border-slate-700/80 flex items-center justify-between">
                 <div>
                   <p className="text-xs text-slate-400">With love & blessings,</p>
-                  <p className="text-sm font-bold text-white font-serif">Mrs. Olabiran Oluwatoyin</p>
+                  <p className="text-sm font-bold text-white font-serif">Pastor Mrs. Olabiran Oluwatoyin</p>
                   <p className="text-[11px] text-rose-400 font-semibold">Co-Founder & Proprietress</p>
                 </div>
                 <div className="px-3 py-1 rounded-lg bg-rose-600/10 border border-rose-500/30 text-rose-300 text-xs font-bold">
