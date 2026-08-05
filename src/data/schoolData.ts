@@ -94,6 +94,15 @@ export const TIMELINE: TimelineEvent[] = [
     iconName: "GraduationCap"
   },
   {
+    year: "10th Anniversary",
+    date: "A Decade of Impact (2013 - 2023)",
+    title: "10th Anniversary Celebration",
+    subtitle: "Celebrating 10 Years of Faithful Impact",
+    description: "Tofem marked a glorious decade of nurturing champions and future leaders with thanksgiving, community celebration, and honoring pioneer staff, alumni, and parents who journeyed with us since 2013.",
+    highlight: "10 Years of Impact & Grace",
+    iconName: "Sparkles"
+  },
+  {
     year: "Present Day",
     date: "Fully Approved Dual Campuses",
     title: "Two Dedicated Campuses & Growing Impact",
@@ -101,6 +110,113 @@ export const TIMELINE: TimelineEvent[] = [
     description: "By God's grace, Tofem has blossomed into a complete educational institution operating two distinct campuses at a stone's throw from each other at Agbado crossing. Fully approved by the Ogun State Government, raising responsible, innovative future leaders.",
     highlight: "2 Campuses • Primary & Secondary",
     iconName: "Building2"
+  }
+];
+
+export const CULTURAL_PHOTOS = [
+  {
+    title: "Cultural Day Costume & Heritage Presentation",
+    image: "https://i.ibb.co/8n4j00XF/Whats-App-Image-2026-08-05-at-7-17-08-PM.jpg",
+    caption: "Pupils celebrating rich Nigerian cultural traditions and heritage in authentic attires.",
+    category: "Cultural Day",
+    campus: "Tofem Assembly Hall"
+  },
+  {
+    title: "Traditional Cultural Dance & Performance",
+    image: "https://i.ibb.co/S4VGvNvB/Whats-App-Image-2026-08-05-at-7-17-09-PM-1.jpg",
+    caption: "Students performing traditional cultural dances and artistic choreographies.",
+    category: "Cultural Day",
+    campus: "Tofem Cultural Stage"
+  },
+  {
+    title: "Students in Vibrant Nigerian Cultural Attire",
+    image: "https://i.ibb.co/SX97Vnsh/Whats-App-Image-2026-08-05-at-7-17-09-PM.jpg",
+    caption: "Celebrating cultural diversity and unity among pupils and teachers at Tofem.",
+    category: "Cultural Day",
+    campus: "Tofem Primary Campus"
+  }
+];
+
+export const ANNIVERSARY_PHOTOS = [
+  {
+    title: "10th Anniversary Celebration Banner & Cake",
+    image: "https://i.ibb.co/5hSZB7Vb/Whats-App-Image-2026-08-01-at-5-07-54-PM-1.jpg",
+    caption: "Marking 10 glorious years of building future leaders with dedication and grace.",
+    category: "10th Anniversary",
+    campus: "Tofem Celebration Ground"
+  },
+  {
+    title: "Proprietress, MD & Dignitaries at 10th Anniversary",
+    image: "https://i.ibb.co/LzTM6P8P/Whats-App-Image-2026-08-01-at-5-07-54-PM.jpg",
+    caption: "School founders, management, and special guests celebrating a decade of excellence.",
+    category: "10th Anniversary",
+    campus: "Anniversary Banquet"
+  },
+  {
+    title: "10th Anniversary Thanksgiving & Celebration",
+    image: "https://i.ibb.co/0yB8dZnD/Whats-App-Image-2026-08-01-at-5-07-55-PM.jpg",
+    caption: "Thanksgiving, awards, and anniversary rejoicing with staff, parents, and students.",
+    category: "10th Anniversary",
+    campus: "Tofem Anniversary Stage"
+  }
+];
+
+export const GRADUATION_2026_PHOTOS = [
+  {
+    title: "2026 Graduating Pupils in Academic Gowns",
+    image: "https://i.ibb.co/27d7jkrj/Whats-App-Image-2026-08-05-at-7-17-04-PM-1.jpg",
+    caption: "Proud graduating pupils dressed in academic gowns and caps on their graduation day.",
+    category: "Graduation 2026",
+    campus: "Tofem Graduation Hall"
+  },
+  {
+    title: "2026 Graduation Procession & Celebration",
+    image: "https://i.ibb.co/7J33RMyh/Whats-App-Image-2026-08-05-at-7-17-04-PM-2.jpg",
+    caption: "Graduation ceremony procession and festive presentation with teachers and parents.",
+    category: "Graduation 2026",
+    campus: "Tofem Event Grounds"
+  },
+  {
+    title: "Valedictory & Prize Giving Ceremony Stage",
+    image: "https://i.ibb.co/270Q5FY3/Whats-App-Image-2026-08-05-at-7-17-04-PM.jpg",
+    caption: "Celebrating academic champions and prize winners on the valedictory stage.",
+    category: "Graduation 2026",
+    campus: "Tofem Stage"
+  },
+  {
+    title: "2026 Graduating Class Academic Presentation",
+    image: "https://i.ibb.co/4wP7Wnrr/Whats-App-Image-2026-08-05-at-7-17-05-PM-1.jpg",
+    caption: "Graduating class giving speeches, presentations, and farewell songs.",
+    category: "Graduation 2026",
+    campus: "Auditorium Stage"
+  },
+  {
+    title: "Graduation Day Pupils with Awards & Certificates",
+    image: "https://i.ibb.co/9m5qNVpX/Whats-App-Image-2026-08-05-at-7-17-05-PM-2.jpg",
+    caption: "Pupils proudly receiving their certificates and awards for academic outstanding excellence.",
+    category: "Graduation 2026",
+    campus: "Tofem Stage"
+  },
+  {
+    title: "Graduation Special Performance & Choreography",
+    image: "https://i.ibb.co/W4MTY2yc/Whats-App-Image-2026-08-05-at-7-17-05-PM.jpg",
+    caption: "Students performing special choreography, choir hymns, and drama presentations.",
+    category: "Graduation 2026",
+    campus: "Celebration Arena"
+  },
+  {
+    title: "Joyful Graduates & Proud Parents Moment",
+    image: "https://i.ibb.co/5WZ4DnXf/Whats-App-Image-2026-08-05-at-7-17-06-PM-1.jpg",
+    caption: "Heartwarming moments between graduating scholars and proud parents.",
+    category: "Graduation 2026",
+    campus: "Tofem Photo Booth"
+  },
+  {
+    title: "2026 Valedictory Session with Teachers & Founders",
+    image: "https://i.ibb.co/h1VMVC1Y/Whats-App-Image-2026-08-05-at-7-17-06-PM.jpg",
+    caption: "Graduating set with dedicated teaching staff, Proprietress, and Managing Director.",
+    category: "Graduation 2026",
+    campus: "Tofem Graduation Hall"
   }
 ];
 
@@ -149,10 +265,28 @@ export const ACADEMIC_PROGRAMS: AcademicProgram[] = [
 
 export const ANNOUNCEMENTS: Announcement[] = [
   {
+    id: "ann-grad-2026",
+    title: "2026 Annual Graduation & Valedictory Ceremony Highlights",
+    category: "Academic",
+    date: "August 2026",
+    summary: "Celebrating our graduating scholars across primary and secondary wings with prizes, joy, and awards.",
+    content: "Hearty congratulations to the 2026 graduating class of Tofem Private School & Tofem College! We celebrate their exceptional achievements, character, and readiness to lead in their next academic chapters.",
+    badgeColor: "bg-red-100 text-red-800"
+  },
+  {
+    id: "ann-culture",
+    title: "Annual Cultural Heritage & Talent Exhibition",
+    category: "Sports",
+    date: "2026 Session",
+    summary: "A vibrant celebration of Nigerian culture, ethnic traditions, dance, and student theatrical drama.",
+    content: "Our learners showcased colorful traditional attires, cultural dances, drama presentations, and culinary heritage representing diverse cultures across Nigeria at the Tofem Assembly Grounds.",
+    badgeColor: "bg-amber-100 text-amber-800"
+  },
+  {
     id: "ann-1",
     title: "Admissions Ongoing for 2026/2027 Academic Session",
     category: "Academic",
-    date: "July 2026",
+    date: "July - Sept 2026",
     summary: "Entrance examinations and registration forms are now available for Primary & Tofem College.",
     content: "Tofem Private School and Tofem College welcome prospective pupils and students for the upcoming academic session. Entrance assessments are conducted every Wednesday and Saturday at our primary and secondary campuses.",
     badgeColor: "bg-emerald-100 text-emerald-800"
@@ -165,15 +299,6 @@ export const ANNOUNCEMENTS: Announcement[] = [
     summary: "Learn how our flexible payment options and standard termly fee structures empower parents.",
     content: "In line with our core vision, Tofem Private School & Tofem College offers flexible fee payment plans and standard termly arrangements to ensure financial hardship never interrupts a child's right to quality education.",
     badgeColor: "bg-blue-100 text-blue-800"
-  },
-  {
-    id: "ann-3",
-    title: "Annual Inter-House Sports & Cultural Festival",
-    category: "Sports",
-    date: "Upcoming Term",
-    summary: "A celebration of athletic talent, team spirit, and cultural heritage across both campuses.",
-    content: "Students from Tofem Primary and Tofem College will showcase their sporting talent and cultural heritage. Parents and guardians are cordially invited to attend.",
-    badgeColor: "bg-amber-100 text-amber-800"
   }
 ];
 

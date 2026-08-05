@@ -196,6 +196,66 @@ export const HistoryTimeline: React.FC = () => {
               </div>
             </div>
 
+            {/* 10th Anniversary Milestone */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-5 order-3 lg:order-1 space-y-3">
+                <div className="bg-gradient-to-br from-amber-500/10 via-red-500/10 to-blue-900/10 p-5 rounded-2xl border border-amber-200/80 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-black text-amber-800 uppercase tracking-wider">10th Anniversary Memories</span>
+                    <span className="text-[10px] font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full border border-amber-300">Decade of Excellence</span>
+                  </div>
+                  {/* 3 Photos Grid */}
+                  <div className="grid grid-cols-3 gap-2">
+                    <div className="rounded-xl overflow-hidden shadow-sm border border-amber-200 aspect-square group">
+                      <img
+                        src="https://i.ibb.co/5hSZB7Vb/Whats-App-Image-2026-08-01-at-5-07-54-PM-1.jpg"
+                        alt="10th Anniversary Cake & Banner"
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                    <div className="rounded-xl overflow-hidden shadow-sm border border-amber-200 aspect-square group">
+                      <img
+                        src="https://i.ibb.co/LzTM6P8P/Whats-App-Image-2026-08-01-at-5-07-54-PM.jpg"
+                        alt="Proprietress and Dignitaries at 10th Anniversary"
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                    <div className="rounded-xl overflow-hidden shadow-sm border border-amber-200 aspect-square group">
+                      <img
+                        src="https://i.ibb.co/0yB8dZnD/Whats-App-Image-2026-08-01-at-5-07-55-PM.jpg"
+                        alt="10th Anniversary Thanksgiving & Celebration"
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                  </div>
+                  <p className="text-[11px] text-slate-600 text-center italic">
+                    Snapshots from our grand 10th Anniversary banquet, thanksgiving & awards.
+                  </p>
+                </div>
+              </div>
+
+              <div className="lg:col-span-2 flex justify-center order-1 lg:order-2">
+                <div className="w-14 h-14 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center shadow-lg border-4 border-white font-bold text-lg z-10">
+                  <Sparkles className="w-7 h-7 text-white" />
+                </div>
+              </div>
+
+              <div className="lg:col-span-5 space-y-3 order-2 lg:order-3">
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300">
+                  Decade Milestone (2013 - 2023)
+                </span>
+                <h3 className="text-xl sm:text-2xl font-bold text-blue-950">
+                  4. Celebrating 10 Years of Faithful Impact
+                </h3>
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  Tofem celebrated a glorious milestone — 10 years of consistent academic excellence, community service, and raising leaders. The anniversary brought together founding teachers, alumni, parents, and community leaders in heartfelt thanksgiving.
+                </p>
+              </div>
+            </div>
+
             {/* Present Day Dual Campuses */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div className="lg:col-span-5 order-3 lg:order-1">
@@ -218,7 +278,7 @@ export const HistoryTimeline: React.FC = () => {
                   Our Campuses Today
                 </span>
                 <h3 className="text-xl sm:text-2xl font-bold text-blue-950">
-                  4. Complete Institution Raising Future Leaders
+                  5. Complete Institution Raising Future Leaders
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
                   From a single rented room in 2013 to two approved campuses today, Tofem Private School remains committed to excellence, access, and raising children for greatness — one child at a time.
