@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, MessageCircle, ShieldCheck, ArrowUp } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageCircle, ShieldCheck, ArrowUp, Facebook, Instagram, Video } from 'lucide-react';
 import { SCHOOL_INFO } from '../data/schoolData';
 
 interface FooterProps {
@@ -121,8 +121,8 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
           </div>
 
-          {/* Contact Details */}
-          <div className="lg:col-span-3 space-y-3">
+          {/* Contact Details & Social Media */}
+          <div className="lg:col-span-3 space-y-4">
             <h4 className="text-xs font-bold text-red-500 uppercase tracking-wider">Official Contacts</h4>
             <div className="space-y-2.5 text-xs text-blue-100">
               <a href={`tel:${SCHOOL_INFO.phone}`} className="flex items-center gap-2 hover:text-red-400 transition-colors">
@@ -139,11 +139,50 @@ export const Footer: React.FC<FooterProps> = ({
                 href={SCHOOL_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl transition-colors shadow-sm"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl transition-colors shadow-sm"
               >
                 <MessageCircle className="w-4 h-4" />
                 <span>WhatsApp Desk</span>
               </a>
+            </div>
+
+            {/* Social Media Links */}
+            <div className="pt-3 border-t border-blue-900/80 space-y-2">
+              <h4 className="text-xs font-bold text-red-500 uppercase tracking-wider">Connect On Social Media</h4>
+              <div className="flex flex-wrap items-center gap-2">
+                <a
+                  href={SCHOOL_INFO.socialLinks.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Tofem School on Facebook"
+                  className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-900 hover:bg-blue-800 text-white text-xs font-semibold rounded-lg border border-blue-800 transition-all hover:scale-105"
+                >
+                  <Facebook className="w-3.5 h-3.5 text-blue-400" />
+                  <span>Facebook</span>
+                </a>
+
+                <a
+                  href={SCHOOL_INFO.socialLinks.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Tofem School on Instagram"
+                  className="flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-purple-900 to-pink-900 hover:from-purple-800 hover:to-pink-800 text-white text-xs font-semibold rounded-lg border border-pink-700/50 transition-all hover:scale-105"
+                >
+                  <Instagram className="w-3.5 h-3.5 text-pink-400" />
+                  <span>Instagram</span>
+                </a>
+
+                <a
+                  href={SCHOOL_INFO.socialLinks.tiktok}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Tofem School on TikTok"
+                  className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold rounded-lg border border-slate-700 transition-all hover:scale-105"
+                >
+                  <Video className="w-3.5 h-3.5 text-teal-400" />
+                  <span>TikTok</span>
+                </a>
+              </div>
             </div>
           </div>
 

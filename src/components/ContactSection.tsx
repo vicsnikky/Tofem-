@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, MessageCircle, Send, Clock, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageCircle, Send, Clock, CheckCircle2, ShieldCheck, Facebook, Instagram, Video, ExternalLink } from 'lucide-react';
 import { SCHOOL_INFO, CAMPUSES } from '../data/schoolData';
 
 export const ContactSection: React.FC = () => {
@@ -112,6 +112,82 @@ export const ContactSection: React.FC = () => {
                   <span className="text-xs font-bold text-slate-500 uppercase">Office Hours</span>
                   <p className="text-xs font-semibold text-slate-800">{SCHOOL_INFO.workingHours}</p>
                 </div>
+              </div>
+            </div>
+
+            {/* Official Social Media Channels */}
+            <div className="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white p-6 rounded-3xl border border-slate-800 space-y-4 shadow-lg">
+              <div className="flex items-center justify-between">
+                <div>
+                  <span className="text-[11px] font-bold text-red-400 uppercase tracking-wider block">Stay Connected</span>
+                  <h4 className="text-lg font-black text-white">Official Social Media</h4>
+                </div>
+                <div className="flex items-center gap-1 bg-white/10 px-2.5 py-1 rounded-full text-[10px] font-bold text-blue-200 border border-white/10">
+                  <span>@tofemschool</span>
+                </div>
+              </div>
+
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Follow our pages for school events, student achievements, campus activities, and admissions announcements.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-1">
+                {/* Facebook */}
+                <a
+                  href={SCHOOL_INFO.socialLinks.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between sm:flex-col sm:items-start p-3 rounded-2xl bg-blue-900/60 hover:bg-blue-800/80 border border-blue-700/60 transition-all hover:scale-[1.02] group"
+                >
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-xl bg-blue-600 text-white flex items-center justify-center shadow">
+                      <Facebook className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <strong className="block text-xs text-white font-bold group-hover:text-blue-200">Facebook</strong>
+                      <span className="text-[10px] text-blue-200 block">Tofem Page</span>
+                    </div>
+                  </div>
+                  <ExternalLink className="w-3.5 h-3.5 text-blue-300 sm:self-end sm:mt-2" />
+                </a>
+
+                {/* Instagram */}
+                <a
+                  href={SCHOOL_INFO.socialLinks.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between sm:flex-col sm:items-start p-3 rounded-2xl bg-gradient-to-br from-purple-950/80 to-pink-950/80 hover:from-purple-900 hover:to-pink-900 border border-pink-700/50 transition-all hover:scale-[1.02] group"
+                >
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-amber-500 via-pink-500 to-purple-600 text-white flex items-center justify-center shadow">
+                      <Instagram className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <strong className="block text-xs text-white font-bold group-hover:text-pink-200">Instagram</strong>
+                      <span className="text-[10px] text-pink-200 block">@tofemschool</span>
+                    </div>
+                  </div>
+                  <ExternalLink className="w-3.5 h-3.5 text-pink-300 sm:self-end sm:mt-2" />
+                </a>
+
+                {/* TikTok */}
+                <a
+                  href={SCHOOL_INFO.socialLinks.tiktok}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between sm:flex-col sm:items-start p-3 rounded-2xl bg-slate-900 hover:bg-slate-800 border border-slate-700 transition-all hover:scale-[1.02] group"
+                >
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded-xl bg-slate-800 text-white border border-teal-500/40 flex items-center justify-center shadow">
+                      <Video className="w-4 h-4 text-teal-400" />
+                    </div>
+                    <div>
+                      <strong className="block text-xs text-white font-bold group-hover:text-teal-200">TikTok</strong>
+                      <span className="text-[10px] text-teal-200 block">@tofemschool</span>
+                    </div>
+                  </div>
+                  <ExternalLink className="w-3.5 h-3.5 text-teal-300 sm:self-end sm:mt-2" />
+                </a>
               </div>
             </div>
 

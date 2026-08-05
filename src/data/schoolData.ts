@@ -17,8 +17,9 @@ export const SCHOOL_INFO = {
   approvalStatus: "Fully Approved by Ogun State Government",
   workingHours: "Monday - Friday: 7:30 AM - 4:00 PM",
   socialLinks: {
-    facebook: "https://facebook.com/tofemprivate",
-    instagram: "https://instagram.com/tofem_schools",
+    facebook: "https://www.facebook.com/share/1DUhgwkuYa/",
+    instagram: "https://www.instagram.com/tofemschool?igsh=MWd5czFjMzh4bjB6bg==",
+    tiktok: "https://www.tiktok.com/@tofemschool?_r=1&_t=ZS-98dL46VROK5",
     whatsapp: "https://wa.me/2348034860693"
   }
 };
